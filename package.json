@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/uuid": "^9.0.8",
     "node-fetch": "^3.3.2"
   }
 }
