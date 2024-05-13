@@ -26,13 +26,13 @@ chapter.get("/:code", async (req, res) => {
 chapter.post("/", async (req, res) => {
   try {
     const body = req.body;
+    const source = body.source;
     const nameBook = body.nameBook;
     const nameChapter = body.nameChapter;
     const content = body.content;
     const gender = body.gender;
-    // const fileNameLocal = `${uuid()}.wav`;
     const fileName = `${nameChapter}-${gender}.wav`;
-    const destination = `${nameBook}/${fileName}`;
+    const destination = `${source}/${nameBook}/${fileName}`;
     const filee = getStorage().bucket().file(destination);
     try {
       await getDownloadURL(filee);
@@ -52,10 +52,9 @@ chapter.post("/", async (req, res) => {
       });
       const stream = resp.data;
       const arr: Buffer[] = [];
-
       stream
-        .on("data", (chunk: any) => arr.push(chunk))
-        .on("error", (err: any) => console.log(err))
+        .on("data", (chunk: Buffer) => arr.push(chunk))
+        .on("error", (err: Error) => res.status(ErrorCode.common).send(err))
         .on("end", () => {
           const buffer = Buffer.concat(arr);
           filee.save(buffer);
