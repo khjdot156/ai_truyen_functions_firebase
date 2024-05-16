@@ -1,4 +1,4 @@
 export enum ErrorCode {
-    exist = 100,
-    common = 500,
+    TIME_OUT = 100,
+    COMMON = 500,
 }
