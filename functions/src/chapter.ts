@@ -10,7 +10,6 @@ export const chapter = express();
 
 // Automatically allow cross-origin requests
 chapter.use(cors({origin: true}));
-axios.defaults.timeout = 60000;
 chapter.get("/:code", async (req, res) => {
   try {
     const code = req.params.code;
@@ -27,10 +26,10 @@ chapter.post("/", async (req, res) => {
   const body = req.body;
   const source = body.source;
   const nameBook = body.nameBook;
-  const nameChapter = body.nameChapter;
+  const fileName = body.nameChapter;
   const content = body.content;
   const gender = body.gender;
-  const fileName = `${nameChapter}-${gender}.wav`;
+  // const fileName = `${nameChapter}-${gender}.wav`;
   const destination = `${source}/${nameBook}/${fileName}`;
   const filee = getStorage().bucket().file(destination);
   try {
@@ -50,6 +49,7 @@ chapter.post("/", async (req, res) => {
         .post(AICloudUrl, bodyReq, {
           responseType: "stream",
           httpAgent: agent,
+          timeout: 60000,
         })
         .then((resp) => {
           const stream = resp.data;
