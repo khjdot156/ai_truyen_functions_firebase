@@ -1,11 +1,13 @@
 {
     "iOS": {
         "id": "com.joyboy.voiceaitruyen",
-        "version": "1.0.0"
+        "version": "1.0.0",
+        "forcusUpdate": false
     }
     ,
     "android":{
         "id": "com.joyboy.voiceaitruyen",
-        "version": "1.1.0"
+        "version": "1.1.0",
+        "forcusUpdate": false
     }
 }
