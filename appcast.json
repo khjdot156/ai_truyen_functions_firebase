@@ -2,12 +2,14 @@
     "iOS": {
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
-        "forcusUpdate": false
+        "forcusUpdate": false,
+        "voices": ["Mạnh Ninh", "Minh Hạnh"]
     }
     ,
     "android":{
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
-        "forcusUpdate": false
+        "forcusUpdate": false,
+        "voices": ["Mạnh Ninh", "Minh Hạnh"]
     }
 }
