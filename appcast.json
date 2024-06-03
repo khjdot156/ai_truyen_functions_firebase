@@ -6,10 +6,12 @@
         "voices": [
             {
                 "id": "male",
+                "gender": "Nam",
                 "name": "Mạnh Ninh"
             },
             {
                 "id": "female",
+                "gender": "Nữ",
                 "name": "Minh Hạnh"
             }
         ]
@@ -20,12 +22,14 @@
         "version": "1.0.0",
         "forcusUpdate": false,
         "voices": [
-            {
+           {
                 "id": "male",
+                "gender": "Nam",
                 "name": "Mạnh Ninh"
             },
             {
                 "id": "female",
+                "gender": "Nữ",
                 "name": "Minh Hạnh"
             }
         ]
