@@ -3,13 +3,31 @@
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
         "forcusUpdate": false,
-        "voices": ["Mạnh Ninh", "Minh Hạnh"]
+        "voices": [
+            {
+                "id": "male",
+                "name": "Mạnh Ninh"
+            },
+            {
+                "id": "female",
+                "name": "Minh Hạnh"
+            }
+        ]
     }
     ,
     "android":{
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
         "forcusUpdate": false,
-        "voices": ["Mạnh Ninh", "Minh Hạnh"]
+        "voices": [
+            {
+                "id": "male",
+                "name": "Mạnh Ninh"
+            },
+            {
+                "id": "female",
+                "name": "Minh Hạnh"
+            }
+        ]
     }
 }
