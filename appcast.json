@@ -3,6 +3,16 @@
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
         "forcusUpdate": false,
+        "sources": [
+            {
+                "name": "SSTRUYEN",
+                "host": "sstruyen.vn",
+            },
+            {
+                "name": "TRUYENFULL",
+                "host": "truyenfull.io",
+            },
+        ], 
         "voices": [
             {
                 "id": "male",
@@ -14,13 +24,23 @@
                 "gender": "Nữ",
                 "name": "Minh Hạnh"
             }
-        ]
+        ]Ï
     }
     ,
     "android":{
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
         "forcusUpdate": false,
+         "sources": [
+            {
+                "name": "SSTRUYEN",
+                "host": "sstruyen.vn",
+            },
+            {
+                "name": "TRUYENFULL",
+                "host": "truyenfull.io",
+            },
+        ], 
         "voices": [
            {
                 "id": "male",
