@@ -6,11 +6,11 @@
         "sources": [
             {
                 "name": "SSTRUYEN",
-                "host": "sstruyen.vn",
+                "host": "sstruyen.vn"
             },
             {
                 "name": "TRUYENFULL",
-                "host": "truyenfull.io",
+                "host": "truyenfull.io"
             }
         ], 
         "voices": [
@@ -33,11 +33,11 @@
          "sources": [
             {
                 "name": "SSTRUYEN",
-                "host": "sstruyen.vn",
+                "host": "sstruyen.vn"
             },
             {
                 "name": "TRUYENFULL",
-                "host": "truyenfull.io",
+                "host": "truyenfull.io"
             }
         ], 
         "voices": [
