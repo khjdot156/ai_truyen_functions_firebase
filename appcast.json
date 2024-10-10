@@ -1,88 +1,90 @@
 {
-    "iOS": {
-        "id": "com.joyboy.voiceaitruyen",
-        "version": "1.0.0",
-        "forcusUpdate": false,
-        "sources": [
-            {
-                "name": "SSTRUYEN",
-                "host": "sstruyen.vn"
-            },
-            {
-                "name": "TRUYENFULL",
-                "host": "truyenfull.io"
-            }
-        ], 
-        "voices": [
-            {
-                "id": "male",
-                "gender": "Nam",
-                "name": "Mạnh Ninh"
-            },
-            {
-                "id": "female",
-                "gender": "Nữ",
-                "name": "Minh Hạnh"
-            }
-        ],
-        "ads":[
-            {
-                "bannerId": {
-                    "id": "",
-                    "enable": false
-                },
-                "interstitialId": {
-                    "id": "",
-                    "enable": false
-                },
-                "appopenId": {
-                    "id": "",
-                    "enable": false
-                }
-            }
-        ]
-    },
-    "android": {
-        "id": "com.joyboy.voiceaitruyen",
-        "version": "1.0.0",
-        "forcusUpdate": false,
-         "sources": [
-            {
-                "name": "SSTRUYEN",
-                "host": "sstruyen.vn"
-            },
-            {
-                "name": "TRUYENFULL",
-                "host": "truyenfull.io"
-            }
-        ], 
-        "voices": [
-           {
-                "id": "male",
-                "gender": "Nam",
-                "name": "Mạnh Ninh"
-            },
-            {
-                "id": "female",
-                "gender": "Nữ",
-                "name": "Minh Hạnh"
-            }
-        ],
-         "ads":[
-            {
-                "bannerId": {
-                    "id": "",
-                    "enable": false
-                },
-                "interstitialId": {
-                    "id": "",
-                    "enable": false
-                },
-                "appopenId": {
-                    "id": "",
-                    "enable": false
-                }
-            }
-        ]
-    }
+  "iOS": {
+    "id": "com.joyboy.voiceaitruyen",
+    "version": "1.0.0",
+    "forcusUpdate": false,
+    "sources": [
+      {
+        "name": "SSTRUYEN",
+        "host": "sstruyen.vn"
+      },
+      {
+        "name": "TRUYENFULL",
+        "host": "truyenfull.io"
+      }
+    ],
+    "voices": [
+      {
+        "id": "male",
+        "gender": "Nam",
+        "name": "Mạnh Ninh"
+      },
+      {
+        "id": "female",
+        "gender": "Nữ",
+        "name": "Minh Hạnh"
+      }
+    ],
+    "ads": [
+      {
+        "type": "banner",
+        "id": "",
+        "enable": false
+      },
+      {
+        "type": "interstitial",
+        "id": "",
+        "enable": false
+      },
+      {
+        "type": "appopen",
+        "id": "",
+        "enable": false
+      }
+    ]
+  },
+  "android": {
+    "id": "com.joyboy.voiceaitruyen",
+    "version": "1.0.0",
+    "forcusUpdate": false,
+    "sources": [
+      {
+        "name": "SSTRUYEN",
+        "host": "sstruyen.vn"
+      },
+      {
+        "name": "TRUYENFULL",
+        "host": "truyenfull.io"
+      }
+    ],
+    "voices": [
+      {
+        "id": "male",
+        "gender": "Nam",
+        "name": "Mạnh Ninh"
+      },
+      {
+        "id": "female",
+        "gender": "Nữ",
+        "name": "Minh Hạnh"
+      }
+    ],
+    "ads": [
+      {
+        "type": "banner",
+        "id": "",
+        "enable": false
+      },
+      {
+        "type": "interstitial",
+        "id": "",
+        "enable": false
+      },
+      {
+        "type": "appopen",
+        "id": "",
+        "enable": false
+      }
+    ]
+  }
 }
