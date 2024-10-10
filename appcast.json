@@ -27,9 +27,18 @@
         ],
         "ads":[
             {
-                "bannerId": "",
-                "interstitialId": "",
-                "appopenId": ""
+                "bannerId": {
+                    "id": "",
+                    "enable": false
+                },
+                "interstitialId": {
+                    "id": "",
+                    "enable": false
+                },
+                "appopenId": {
+                    "id": "",
+                    "enable": false
+                }
             }
         ]
     },
@@ -59,11 +68,20 @@
                 "name": "Minh Hạnh"
             }
         ],
-        "ads": [
+         "ads":[
             {
-                "bannerId": "",
-                "interstitialId": "",
-                "appopenId": ""
+                "bannerId": {
+                    "id": "",
+                    "enable": false
+                },
+                "interstitialId": {
+                    "id": "",
+                    "enable": false
+                },
+                "appopenId": {
+                    "id": "",
+                    "enable": false
+                }
             }
         ]
     }
