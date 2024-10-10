@@ -24,9 +24,16 @@
                 "gender": "Nữ",
                 "name": "Minh Hạnh"
             }
+        ],
+        "ads":[
+            {
+                "bannerId": "",
+                "interstitialId": "",
+                "appopenId": ""
+            }
         ]
     },
-    "android":{
+    "android": {
         "id": "com.joyboy.voiceaitruyen",
         "version": "1.0.0",
         "forcusUpdate": false,
@@ -50,6 +57,13 @@
                 "id": "female",
                 "gender": "Nữ",
                 "name": "Minh Hạnh"
+            }
+        ],
+        "ads": [
+            {
+                "bannerId": "",
+                "interstitialId": "",
+                "appopenId": ""
             }
         ]
     }
