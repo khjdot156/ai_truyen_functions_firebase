@@ -28,18 +28,16 @@
     "ads": [
       {
         "type": "banner",
-        "id": "",
-        "enable": false
+        "id": null
       },
       {
         "type": "interstitial",
-        "id": "",
+        "id": null,
         "enable": false
       },
       {
         "type": "appopen",
-        "id": "",
-        "enable": false
+        "id": null
       }
     ]
   },
@@ -72,18 +70,15 @@
     "ads": [
       {
         "type": "banner",
-        "id": "",
-        "enable": false
+        "id": null
       },
       {
         "type": "interstitial",
-        "id": "",
-        "enable": false
+        "id": null
       },
       {
         "type": "appopen",
-        "id": "",
-        "enable": false
+        "id": null
       }
     ]
   }
