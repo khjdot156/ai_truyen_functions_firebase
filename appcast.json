@@ -29,17 +29,17 @@
       {
         "type": "banner",
         "id": null,
-        "enable": true
+        "enable": false
       },
       {
         "type": "interstitial",
         "id": null,
-        "enable": true
+        "enable": false
       },
       {
         "type": "appopen",
         "id": null,
-        "enable": true
+        "enable": false
       }
     ]
   },
@@ -73,17 +73,17 @@
       {
         "type": "banner",
         "id": null,
-        "enable": true
+        "enable": false
       },
       {
         "type": "interstitial",
         "id": null,
-        "enable": true
+        "enable": false
       },
       {
         "type": "appopen",
         "id": null,
-        "enable": true
+        "enable": false
       }
     ]
   }
