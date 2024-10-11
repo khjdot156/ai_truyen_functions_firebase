@@ -73,17 +73,17 @@
       {
         "type": "banner",
         "id": null,
-        "enable": false
+        "enable": true
       },
       {
         "type": "interstitial",
         "id": null,
-        "enable": false
+        "enable": true
       },
       {
         "type": "appopen",
         "id": null,
-        "enable": false
+        "enable": true
       }
     ]
   }
