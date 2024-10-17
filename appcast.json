@@ -83,7 +83,7 @@
       {
         "type": "appopen",
         "id": null,
-        "enable": true
+        "enable": false
       }
     ]
   }
