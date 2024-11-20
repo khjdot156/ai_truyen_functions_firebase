@@ -11,6 +11,10 @@
       {
         "name": "TRUYENFULL",
         "host": "truyenfull.io"
+      },
+      {
+        "bnsach": "bnsach",
+        "host": "bnsach.com"
       }
     ],
     "voices": [
