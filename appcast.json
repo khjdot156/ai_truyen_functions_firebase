@@ -80,17 +80,17 @@
     "ads": [
       {
         "type": "banner",
-        "id": null,
+        "id": "ca-app-pub-6266252831793706/3706725615",
         "enable": false
       },
       {
         "type": "interstitial",
-        "id": null,
+        "id": "ca-app-pub-6266252831793706/8679679254",
         "enable": false
       },
       {
         "type": "appopen",
-        "id": null,
+        "id": "ca-app-pub-6266252831793706/2985174490",
         "enable": false
       }
     ]
