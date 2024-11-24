@@ -81,17 +81,17 @@
       {
         "type": "banner",
         "id": "ca-app-pub-6266252831793706/3706725615",
-        "enable": true
+        "enable": false
       },
       {
         "type": "interstitial",
         "id": "ca-app-pub-6266252831793706/8679679254",
-        "enable": true
+        "enable": false
       },
       {
         "type": "appopen",
         "id": "ca-app-pub-6266252831793706/2985174490",
-        "enable": true
+        "enable": false
       }
     ]
   }
