@@ -62,11 +62,6 @@
     ],
     "voices": [
       {
-        "id": "male",
-        "gender": "Nam",
-        "name": "Mạnh Ninh"
-      },
-      {
         "id": "female",
         "gender": "Nữ",
         "name": "Minh Hạnh"
