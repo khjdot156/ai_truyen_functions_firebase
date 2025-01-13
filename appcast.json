@@ -19,9 +19,14 @@
     ],
     "voices": [
       {
-        "id": "female",
+        "id": "vi-VN-HoaiMyNeural",
         "gender": "Nữ",
-        "name": "Minh Hạnh"
+        "name": "Hoài My"
+      },
+      {
+        "id": "vi-VN-NamMinhNeural",
+        "gender": "Nam",
+        "name": "Nam Minh"
       }
     ],
     "ads": [
@@ -62,9 +67,14 @@
     ],
     "voices": [
       {
-        "id": "female",
+        "id": "vi-VN-HoaiMyNeural",
         "gender": "Nữ",
-        "name": "Minh Hạnh"
+        "name": "Hoài My"
+      },
+      {
+        "id": "vi-VN-NamMinhNeural",
+        "gender": "Nam",
+        "name": "Nam Minh"
       }
     ],
     "ads": [
