@@ -6,15 +6,18 @@
     "sources": [
       {
         "name": "SSTRUYEN",
-        "host": "sstruyen.vn"
+        "host": "sstruyen.vn",
+        "icon": "https://sstruyen.vn/assets/icon/favicon-192x192.png"
       },
       {
         "name": "TRUYENFULL",
-        "host": "truyenfull.vision"
+        "host": "truyenfull.vision",
+        "icon": "https://static.truyenfull.vision/favicons/favicon-192x192.png"
       },
       {
         "bnsach": "bnsach",
-        "host": "bnsach.com"
+        "host": "bnsach.com",
+        "icon": "https://bnsach.com/favicon.ico"
       }
     ],
     "voices": [
@@ -54,15 +57,18 @@
     "sources": [
       {
         "name": "SSTRUYEN",
-        "host": "sstruyen.vn"
+        "host": "sstruyen.vn",
+        "icon": "https://sstruyen.vn/assets/icon/favicon-192x192.png"
       },
       {
         "name": "TRUYENFULL",
-        "host": "truyenfull.vision"
+        "host": "truyenfull.vision",
+        "icon": "https://static.truyenfull.vision/favicons/favicon-192x192.png"
       },
       {
         "bnsach": "bnsach",
-        "host": "bnsach.com"
+        "host": "bnsach.com",
+        "icon": "https://bnsach.com/favicon.ico"
       }
     ],
     "voices": [
